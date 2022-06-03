@@ -15,10 +15,14 @@ It's important to install the dependecies before uploading it on a host
 ## Usage
 
 ```sh
-!register
+!register <address>
 ```
 
 This command allows people to register their address in the whitelist, they will reveive an answer in their DMs
+
+**Prerequisits**
+
+None
 
 **Possible Outcomes**
 
@@ -27,3 +31,34 @@ This command allows people to register their address in the whitelist, they will
 * **Invalid address:** Please provide a correct address
 * **Already registered:** You are already registered
 * **Registration disabled:** This action is not active
+
+```sh
+!turnOff
+```
+
+This command allows administrators to disable the `!register` command
+
+**Prerequisits**
+
+ADMINISTRATOR permission
+
+**Possible Outcomes**
+
+* **Successful:** The register command has been disabled
+* **Insufficient perms:** You're not an administrator
+
+```sh
+!setChannel <#channel>
+```
+
+This command allows administrators to turn on the `!register` command in a specified channel. It's important to mention the channel and **NOT** use the channel ID
+
+**Prerequisits**
+
+ADMINISTRATOR permission
+
+**Possible Outcomes**
+
+* **Successful:** Channel set with ID <channel ID>
+* **Insufficient perms:** You're not an administrator
+* **Insufficient bot perms:** I can't see that channel
