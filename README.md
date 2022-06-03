@@ -18,4 +18,5 @@ It's important to install the dependecies before uploading it on a host
 !register
 ```
 
-WIP
+This command allows people to register their address in the whitelist, they will reveive an answer in their DMs
+
