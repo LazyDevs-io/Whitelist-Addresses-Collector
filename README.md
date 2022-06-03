@@ -22,8 +22,8 @@ This command allows people to register their address in the whitelist, they will
 
 **Possible Outcomes**
 
-* Successful: You've registered
-* Wrong channel: This is not the channel to do this
-* Invalid address: Please provide a correct address
-* Already registered: You are already registered
-* Registration disabled: This action is not active
+* **Successful:** You've registered
+* **Wrong channel:** This is not the channel to do this
+* **Invalid address:** Please provide a correct address
+* **Already registered:** You are already registered
+* **Registration disabled:** This action is not active
