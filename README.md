@@ -20,3 +20,10 @@ It's important to install the dependecies before uploading it on a host
 
 This command allows people to register their address in the whitelist, they will reveive an answer in their DMs
 
+**Possible Outcomes**
+
+* Successful: You've registered
+* Wrong channel: This is not the channel to do this
+* Invalid address: Please provide a correct address
+* Already registered: You are already registered
+* Registration disabled: This action is not active
