@@ -1,4 +1,4 @@
-# Whitelist-Addresses-Collector
+# Whitelist Addresses Collector
 A discord bot that allows to collect addresses in a standardized JSON file through a command
 
 # What's the utility?
@@ -62,3 +62,35 @@ ADMINISTRATOR permission
 * **Successful:** Channel set with ID <channel ID>
 * **Insufficient perms:** You're not an administrator
 * **Insufficient bot perms:** I can't see that channel
+
+```sh
+!deleteAddress <address>
+```
+
+This command allows administrators to delete an address from the list of registered addresses
+  
+**Prerequisits**
+
+ADMINISTRATOR permission
+  
+**Possible Outcomes**
+
+* **Successful:** User deleted with username  <owner address discord username>
+* **Insufficient perms:** You're not an administrator
+* **Invalid address:** Please provide a correct address
+* **Address not found:** User not found
+  
+```sh
+!getJSON
+```
+  
+This command allows administrators to get the JSON file of the registered addresses list
+  
+**Prerequisits**
+
+ADMINISTRATOR permission
+  
+**Possible Outcomes**
+
+* **Successful:** JSON file
+* **Insufficient perms:** You're not an administrator
